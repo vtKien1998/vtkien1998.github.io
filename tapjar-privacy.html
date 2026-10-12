@@ -24,6 +24,88 @@
 <table>
 <tr><th>Data</th><th>Why</th><th>Who handles it</th></tr>
 <tr><td>Anonymous usage statistics and diagnostics (screens opened, feature usage, app version, device model, OS version, approximate country, app instance ID). Never your expense amounts, titles or notes.</td><td>Understand how the app is used and fix problems.</td><td>Google Firebase Analytics. You can turn this off in <em>Settings &rarr; Share anonymous usage stats</em>.</td></tr>
+<tr><td>Crash reports (stack trace, app state at the time of the crash, device model, OS version, app version, a random installation ID). Never your expense amounts, titles or notes.</td><td>Find and fix crashes and keep the app stable.</td><td>Google Firebase Crashlytics. Turned off by the same switch, <em>Settings &rarr; Share anonymous usage stats</em>.</td></tr>
+<tr><td>Remote configuration requests (app instance ID, app version)</td><td>Adjust app behaviour, for example ad settings, without an app update.</td><td>Google Firebase Remote Config.</td></tr>
+<tr><td>Advertising ID, IP address (from which approximate location may be derived), device and ad interaction data</td><td>Show and measure ads and prevent fraud. TapJar's free version shows ads.</td><td>Google AdMob and its ad partners. In the EEA, UK and other regions where required, ads load only after you make a choice in the consent form shown by Google's User Messaging Platform. You can change your choice any time in <em>Settings &rarr; Ad privacy choices</em>.</td></tr>
+</table>
+<p>We do not collect your name, email address, phone number, contacts, SMS, photos, precise location, or payment details. TapJar has no sign-up and no bank connection.</p>
+
+<h2>3. Permissions</h2>
+<ul>
+<li><strong>Internet and network state:</strong> needed for ads, consent forms and Firebase services. The app's core features work offline.</li>
+<li><strong>Advertising ID (AD_ID):</strong> used by the ad SDK as described above. You can reset or delete it in your Android settings.</li>
+<li><strong>Notifications (optional):</strong> lets TapJar show a daily reminder that you schedule on your device. Reminders are created locally.</li>
+<li><strong>Run at startup:</strong> only to restore your reminder after the phone restarts.</li>
+<li><strong>Biometric (optional):</strong> to lock the app with your fingerprint, face or screen lock. Android performs the check; TapJar never receives your biometric data.</li>
+</ul>
+
+<h2>4. Backup and restore</h2>
+<p>In <em>Settings &rarr; Data &amp; Privacy</em> you can export your data to a JSON file and import it later. The file is saved where you choose. TapJar does not upload it. Anyone with access to the file can read your records, so store it somewhere you trust.</p>
+
+<h2>5. How information is used and shared</h2>
+<p>We use the information above only to run, improve and fund the app (through ads). We do not sell your personal information. We share data only with the service providers named in section 2, which process it under their own terms and privacy policies:</p>
+<ul>
+<li>Google (Firebase, AdMob): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+<li>Google's explanation of how it uses data from apps that use its services: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
+</ul>
+<p>We may disclose information if required by law.</p>
+
+<h2>6. Retention and deletion</h2>
+<ul>
+<li><strong>Your expense data:</strong> stays on your device until you delete it with <em>Settings &rarr; Erase all data</em> or uninstall the app.</li>
+<li><strong>Analytics, crash and advertising data:</strong> is held by Google according to its retention settings. Turning off usage statistics stops new analytics and crash-report collection. To ask us to help with a deletion request, contact us below.</li>
+</ul>
+
+<h2>7. Your choices and rights</h2>
+<ul>
+<li>Turn off anonymous usage statistics and crash reports in Settings.</li>
+<li>Change or withdraw ad consent in <em>Settings &rarr; Ad privacy choices</em>.</li>
+<li>Reset your advertising ID or opt out of ad personalisation in Android settings (Settings &rarr; Privacy &rarr; Ads).</li>
+<li>Depending on where you live (for example the EEA, UK or California) you may have rights to access, correct, delete or object to processing of your personal data. Because we hold no account data about you, most of this is within your control on your device; contact us for anything else.</li>
+</ul>
+
+<h2>8. Children</h2>
+<p>TapJar is not directed to children under 13 (or the minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has provided data, contact us and we will help remove it.</p>
+
+<h2>9. Security</h2>
+<p>Your records live in the app's private storage protected by Android. You can add an app lock. No method of storage or transmission is completely secure, but because your records are not sent to us, the risk is mainly tied to your device and any backup file you export.</p>
+
+<h2>10. International processing</h2>
+<p>Google may process data in countries other than yours. Safeguards are described in Google's policies linked above.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>We may update this policy when the app changes. The effective date above shows the latest version. Significant changes will also be shown in the app or on the Google Play listing.</p>
+
+<h2>12. Contact</h2>
+<p>TechZenith JSC<br>Email: <a href="mailto:quanglinh1211@gmail.com">quanglinh1211@gmail.com</a></p>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TapJar Privacy Policy</title>
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1f2937;max-width:760px;margin:0 auto;padding:24px 18px 64px}
+  h1{font-size:1.8rem;margin-bottom:.2em} h2{font-size:1.2rem;margin-top:2em;border-top:1px solid #e5e7eb;padding-top:1em}
+  .meta{color:#6b7280;font-size:.95rem} table{border-collapse:collapse;width:100%;font-size:.95rem} th,td{border:1px solid #e5e7eb;padding:8px 10px;text-align:left;vertical-align:top} th{background:#f3f4f6}
+  a{color:#2563eb}
+</style>
+</head>
+<body>
+<h1>TapJar: Daily Expense Tracker — Privacy Policy</h1>
+<p class="meta">Effective date: 12 October 2026 · Package: com.tapjar.expensetracker</p>
+
+<p>This policy explains what information the TapJar app ("TapJar", "the app") handles, why, and the choices you have. TapJar is published by TechZenith JSC ("we", "us"). In short: your expense records stay on your phone, and we do not run accounts or servers that store them.</p>
+
+<h2>1. Information stored on your device</h2>
+<p>TapJar stores the following only in the app's private storage on your device: expenses (amounts, dates, categories, optional notes), your quick tiles and their saved prices, budget settings, currency, language, reminder time and other app preferences. We do not receive this data and cannot read it. It is not synced to any cloud service by TapJar, and the app's database is excluded from Android cloud backup.</p>
+
+<h2>2. Information we collect or that is collected through the app</h2>
+<table>
+<tr><th>Data</th><th>Why</th><th>Who handles it</th></tr>
+<tr><td>Anonymous usage statistics and diagnostics (screens opened, feature usage, app version, device model, OS version, approximate country, app instance ID). Never your expense amounts, titles or notes.</td><td>Understand how the app is used and fix problems.</td><td>Google Firebase Analytics. You can turn this off in <em>Settings &rarr; Share anonymous usage stats</em>.</td></tr>
 <tr><td>Remote configuration requests (app instance ID, app version)</td><td>Adjust app behaviour, for example ad settings, without an app update.</td><td>Google Firebase Remote Config.</td></tr>
 <tr><td>Advertising ID, IP address (from which approximate location may be derived), device and ad interaction data</td><td>Show and measure ads and prevent fraud. TapJar's free version shows ads.</td><td>Google AdMob and its ad partners. In the EEA, UK and other regions where required, ads load only after you make a choice in the consent form shown by Google's User Messaging Platform. You can change your choice any time in <em>Settings &rarr; Ad privacy choices</em>.</td></tr>
 </table>
